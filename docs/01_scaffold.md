@@ -5,7 +5,7 @@
 - [x] Add a `./docs` folder with markdown files for project documentation via [docsify](https://docsify.js.org/#/)
 - [x] Configure github pages to [serve the docs](https://help.github.com/en/categories/github-pages-basics)
 - [x] Add the basic [**Github Actions**](https://help.github.com/en/articles/about-github-actions) template to be able to run `install`, `build` and `test` tasks
-- [ ] Add HTML and JS entrypoints
-- [ ] Setup build process
+- [x] Add HTML and JS entrypoints
+- [ ] Setup (initial) build process
 - [ ] Setup code and commit linting, fixing and pre-commit hooks
 - [ ] Setup test-runner
