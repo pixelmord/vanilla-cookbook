@@ -10,4 +10,4 @@ Documentation: see docs folder or github pages and the steps list below with the
 
 1. Scaffold project and test runner
 2. Deploy the most barebone HTML version to netlify
-
+...
