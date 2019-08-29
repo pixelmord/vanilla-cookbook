@@ -4,10 +4,10 @@ Goal: A training exercise in building a PWA without much dependencies and from s
 
 Method: Implementing the project incrementally and TDD style, using as many platform features and APIs as possible.
 
-Documentation: see docs folder or github pages and the steps list below with the version tags.
+Documentation: see docs folder or [github pages - pixelmord.de/vanilla-cookbook](https://pixelmord.de/vanilla-cookbook/#/) and the steps list below with the version tags.
 
 ## Steps
 
 1. Scaffold project and test runner
 2. Deploy the most barebone HTML version to netlify
-...
+   ...
