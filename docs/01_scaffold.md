@@ -8,4 +8,3 @@
 - [x] Add HTML and JS entrypoints
 - [x] Setup (initial) build process
 - [x] Setup code and commit linting, fixing and pre-commit hooks
-- [ ] Setup test-runner

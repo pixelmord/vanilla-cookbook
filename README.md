@@ -8,6 +8,7 @@ Documentation: see docs folder or [github pages - pixelmord.de/vanilla-cookbook]
 
 ## Steps
 
-1. Scaffold project and test runner
-2. Deploy the most barebone HTML version to netlify
+1. Scaffold project
+2. Test runner
+3. Deploy the most barebone HTML version to netlify
    ...
