@@ -4,25 +4,28 @@
   "description": "Vanilla Cookbook - a PWA from created from scratch with minimal dependencies",
   "browser": "index.html",
   "scripts": {
-    "test": "npm run lint",
+    "test": "yarn lint",
     "lint": "eslint . --ignore-path .gitignore --fix",
     "dev": "tsc --watch",
-    "build": "tsc -p tsconfig.build.json"
+    "build": "tsc -p tsconfig.build.json",
+    "version": "yarn conventional-changelog -p eslint -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "keywords": [],
   "author": "Andreas Sahle <andreas.sahle@gmail.com> (https://pixelmord.de/)",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
+    "conventional-changelog": "^3.1.10",
+    "conventional-changelog-cli": "^2.0.23",
     "eslint": "^6.2.2",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^1.18.2",
     "husky": "^3.0.4",
     "lint-staged": "^9.2.5",
-    "@commitlint/cli": "^8.1.0",
-    "@commitlint/config-conventional": "^8.1.0",
+    "prettier": "^1.18.2",
     "typescript": "~3.6.2"
   },
   "husky": {
