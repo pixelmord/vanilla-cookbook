@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npm run lint",
     "lint": "eslint . --ignore-path .gitignore --fix",
+    "dev": "tsc --watch",
     "build": "tsc -p tsconfig.build.json"
   },
   "keywords": [],
