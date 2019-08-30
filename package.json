@@ -1,6 +1,6 @@
 {
   "name": "vanilla-cookbook",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Vanilla Cookbook - a PWA from created from scratch with minimal dependencies",
   "browser": "index.html",
   "scripts": {

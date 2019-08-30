@@ -1,3 +1,8 @@
+## [0.2.2](https://github.com/pixelmord/vanilla-cookbook/compare/v0.2.1...v0.2.2) (2019-08-30)
+
+
+
+
 ## [0.2.1](https://github.com/pixelmord/vanilla-cookbook/compare/v0.2.0...v0.2.1) (2019-08-30)
 
 
