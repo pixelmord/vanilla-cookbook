@@ -6,7 +6,9 @@
   "scripts": {
     "test": "yarn lint",
     "lint": "eslint . --ignore-path .gitignore --fix",
-    "dev": "tsc --watch",
+    "dev:watch": "tsc --watch",
+    "dev:serve": "es-dev-server --app-index index.html --node-resolve --watch --open",
+    "dev": "concurrently \"yarn:dev:watch\" \"yarn:dev:serve\"",
     "build": "tsc -p tsconfig.build.json",
     "version": "yarn conventional-changelog -p eslint -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
@@ -18,8 +20,10 @@
     "@commitlint/config-conventional": "^8.1.0",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
+    "concurrently": "^4.1.2",
     "conventional-changelog": "^3.1.10",
     "conventional-changelog-cli": "^2.0.23",
+    "es-dev-server": "^1.17.1",
     "eslint": "^6.2.2",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-prettier": "^3.1.0",
