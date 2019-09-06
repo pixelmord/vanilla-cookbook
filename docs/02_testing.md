@@ -2,4 +2,4 @@
 
 - [ ] Setup test-runner
 - [ ] Smoke test
-- [ ] Test for performance (budget)
+- [x] Test for performance (budget)

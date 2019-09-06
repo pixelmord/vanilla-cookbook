@@ -6,6 +6,7 @@
   "scripts": {
     "test": "yarn lint",
     "lint": "eslint . --ignore-path .gitignore --fix",
+    "test:perf": "yarn lighthouse http://localhost:8000 --preset=full --output-path=./reports/lighthouse/report_$(date +'%m%d%y').html --budget-path=budget.json --view",
     "dev:watch": "tsc --watch",
     "dev:serve": "es-dev-server --app-index index.html --node-resolve --watch --open",
     "dev": "concurrently \"yarn:dev:watch\" \"yarn:dev:serve\"",
@@ -28,6 +29,7 @@
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-prettier": "^3.1.0",
     "husky": "^3.0.4",
+    "lighthouse": "^5.2.0",
     "lint-staged": "^9.2.5",
     "prettier": "^1.18.2",
     "typescript": "~3.6.2"
